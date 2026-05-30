@@ -1,0 +1,15 @@
+name: Vowel Frequency Analyzer
+
+description: Analyze vowel frequency in a text file
+
+inputs:
+  file:
+    description: Path to text file
+    required: true
+
+runs:
+  using: docker
+  image: ghcr.io/owner/vowel-frequency-analyzer:latest
+
+  env:
+    FILE: ${{ inputs.file }}
