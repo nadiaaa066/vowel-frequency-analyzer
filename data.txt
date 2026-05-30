@@ -1,5 +1,1 @@
-Hello World
-
-This is a vowel frequency test.
-
-GitHub Actions are awesome.
+apple orange umbrella elephant igloo
